@@ -75,7 +75,8 @@ class ChangeFlags {
         Silver.setProperty(PropertyKey.FLUID_PIPE, new FluidPipeProperties(1234, 50, false, false, true, false));
         Rubber.setProperty(PropertyKey.FLUID_PIPE, new FluidPipeProperties(593, 50, true, false, false, false));
 
-        
+
+	setupFluidType(CobaltiteLeachSolution, FluidStorageKeys.LIQUID, 343)
         setupFluidType(AntimonyTrifluoride, FluidStorageKeys.LIQUID, 565)
         setupFluidType(LithiumChloride, FluidStorageKeys.LIQUID, 890)
         setupFluidType(SiliconDioxide, FluidStorageKeys.LIQUID, 1986)
