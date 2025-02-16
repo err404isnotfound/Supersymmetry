@@ -670,7 +670,7 @@ public class FirstDegreeMaterials {
                 .setFormula("(Na3AsS4)(H2O)", true)
 
         CobaltiteLeachSolution = new Material.Builder(8188, SuSyUtility.susyId('cobaltite_leach_solution'))
-                .liquid
+                .liquid()
                 .components(Cobalt * 3, Nitrogen * 6, Oxygen * 30, Hydrogen * 9, Arsenic * 3, Water * 3)
                 .flags(DISABLE_DECOMPOSITION)
                 .colorAverage()
